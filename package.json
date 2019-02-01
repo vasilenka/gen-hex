@@ -1,0 +1,23 @@
+{
+  "name": "gen-hex",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dominant-color": "^0.0.1",
+    "express": "~4.16.0",
+    "express-form-data": "^2.0.8",
+    "get-image-colors": "^2.0.0",
+    "morgan": "~1.9.0",
+    "node-vibrant": "^3.2.0-alpha",
+    "request": "^2.88.0",
+    "sharp": "^0.21.3"
+  }
+}
