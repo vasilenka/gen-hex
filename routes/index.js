@@ -25,7 +25,6 @@ router.post('/', function(req, res, next) {
       // sharp(`./${name}`)
       sharp(img.path)
         // .resize(1, 1)
-        .scale(128)
         .toFormat('jpg')
         .toBuffer()
         .then(async data => {
